@@ -41,6 +41,14 @@ android {
 
 dependencies {
 
+    // 기존 의존성들...
+    implementation("androidx.compose.ui:ui:1.5.4")
+    implementation("androidx.compose.material3:material3:1.1.2")
+    implementation("androidx.activity:activity-compose:1.8.1")
+
+    // 웹뷰 관련 의존성
+    implementation("androidx.webkit:webkit:1.8.0")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
